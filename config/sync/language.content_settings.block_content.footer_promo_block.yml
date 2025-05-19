@@ -1,0 +1,18 @@
+uuid: 1d9dc046-ca80-4ee6-b2d6-a7a6a4123e26
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_promo_block
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: cLKCdnfkCxbxWqNt00n8kLTo6S45WCeLyKXvAZH7Tes
+id: block_content.footer_promo_block
+target_entity_type_id: block_content
+target_bundle: footer_promo_block
+default_langcode: site_default
+language_alterable: true
