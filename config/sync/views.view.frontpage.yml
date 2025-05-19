@@ -305,7 +305,7 @@ display:
           plugin_id: text
           empty: false
           content:
-            value: '<p class="text-align-center">Explore recipes across every type of occasion, ingredient, and skill level.</p>'
+            value: '<p class="text-align-center">Explore recipes across every type123 of occasion, ingredient, and skill level.</p>'
             format: full_html
           tokenize: false
       footer: {  }
@@ -375,7 +375,7 @@ display:
           plugin_id: text
           empty: false
           content:
-            value: '<p class="text-align-center">Explore recipes across every type of occasion, ingredient, and skill level</p>'
+            value: '<p class="text-align-center">Explore recipes across every type 123of occasion, ingredient, and skill level</p>'
             format: full_html
           tokenize: false
       rendering_language: '***LANGUAGE_language_content***'
