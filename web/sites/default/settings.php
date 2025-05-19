@@ -19,6 +19,8 @@ $settings['file_scan_ignore_directories'] = [
   'bower_components',
 ];
 
+$settings['config_sync_directory'] = '../config/sync';
+
 // The hash_salt should be a unique random value for each application.
 // If left unset, the settings.platformsh.php file will attempt to provide one.
 // You can also provide a specific value here if you prefer and it will be used
@@ -35,4 +37,10 @@ if (file_exists($app_root . '/' . $site_path . '/settings.platformsh.php')) {
 // Local settings. These come last so that they can override anything.
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
+}
+
+// Automatically generated include for settings managed by ddev.
+$ddev_settings = __DIR__ . '/settings.ddev.php';
+if (getenv('IS_DDEV_PROJECT') == 'true' && is_readable($ddev_settings)) {
+  require $ddev_settings;
 }
