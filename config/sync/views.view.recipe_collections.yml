@@ -10,7 +10,7 @@ dependencies:
 _core:
   default_config_hash: y5rGzmgAHSDM1X1tHGYXxewaGAZXotQnSYs-2Skjdz4
 id: recipe_collections
-label: 'Recipe Collections'
+label: 'Recipe Collections123'
 module: views
 description: ''
 tag: ''
@@ -23,7 +23,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: 'Recipe collections'
+      title: 'Recipe collections123'
       fields:
         name:
           id: name
